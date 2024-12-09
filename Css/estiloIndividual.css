@@ -1,0 +1,127 @@
+/* Reset básico */
+body, h1, h2, p, img, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e17373;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pagamentos h1{
+    margin-top: 10px;
+}
+
+.pagamentos img{
+    margin: 0px;
+    width: 300px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #5a3d5c;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.details {
+    flex: 1;
+    padding: 20px;
+}
+
+.details h2 {
+    font-size: 1.8rem;
+    color: #5a3d5c;
+    margin-bottom: 10px;
+}
+
+.details .description {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.details .price {
+    font-size: 1.5rem;
+    color: #e91e63;
+    margin: 20px 0;
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e91e63;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-buy:hover {
+    background: #7c0b30;
+}
+
+.quantidade{
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.ml{
+    border: 2px solid #c2185b;
+}
+
+.ml:hover{
+    background-color: #c2185b;
+    color: #FFFFFF;
+}
+
+.ml p{
+    margin: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
